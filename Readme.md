@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Denis Toropov](https://up.htmlacademy.ru/htmlcss/24/user/952231).
-* Наставник: `Никита Попов`.
+* Наставник: [Никита Попов] (https://htmlacademy.ru/profile/id50236)
 
 ---
 
