@@ -75,57 +75,46 @@
 
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <section class="cost-filters">
+        <form class="cost-filters">
           <h3>ЦЕНА:</h3>
           <!--Форма фильтра цены товаров-->
-        </section>
+        </form>
 
-        <section class="fabricators-filter">
+
+        <form name="fabricators-filter" action="https://echo.htmlacademy.ru" method="get" id="fabricators-filter">
           <h3>ПРОИЗВОДИТЕЛИ:</h3>
-          <ul class="fabricators-filter-list">
-            <li class="fabricators-filter-item">
-              <label for="bosch">
-                <input type="checkbox" checked name="tools" value="bosch" id="bosch">BOSCH
-              </label>
-            </li>
-            <li class="fabricators-filter-item">
-              <label for="interskol">
-                <input type="checkbox" name="tools" value="interskol" id="interskol">ИНТЕРСКОЛ
-              </label>
-            </li>
-            <li class="fabricators-filter-item">
-              <label for="makita">
-                <input type="checkbox" checked name="tools" value="makita" id="makita">MAKITA
-              </label>
-            </li>
-            <li class="fabricators-filter-item">
-              <label for="dewalt">
-                <input type="checkbox" name="tools" value="dewalt" id="dewalt">DEWALT
-              </label>
-            </li>
-            <li class="fabricators-filter-item">
-              <label for="hitachi">
-                <input type="checkbox" name="tools" value="hitachi" id="hitachi">HITACHI
-              </label>
-            </li>
-          </ul>
-        </section>
-      </section>
+            <label for="bosch">
+              <input type="checkbox" checked name="tools" value="bosch" id="bosch">BOSCH
+            </label><br>
 
-    <section class="power-filter">
-      <h3>ПИТАНИЕ</h3>
-      <ul class="power-filter-list">
-        <li class="power-filter-item">
-          <label for="battery">
-            <input type="radio" checked name="power" value="battery" id="battery">АККУМУЛЯТОРНЫЕ
-          </label>
-        </li>
-        <li class="power-filter-item">
-          <label for="network">
-            <input type="radio" name="power" value="network" id="network">СЕТЕВЫЕ
-          </label>
-        </li>
-      </ul>
+            <label for="interskol">
+              <input type="checkbox" name="tools" value="interskol" id="interskol">ИНТЕРСКОЛ
+            </label><br>
+
+            <label for="makita">
+              <input type="checkbox" checked name="tools" value="makita" id="makita">MAKITA
+            </label><br>
+
+            <label for="dewalt">
+              <input type="checkbox" name="tools" value="dewalt" id="dewalt">DEWALT
+            </label><br>
+
+            <label for="hitachi">
+              <input type="checkbox" name="tools" value="hitachi" id="hitachi">HITACHI
+            </label>
+        </form>
+
+        <form class="power-filter">
+          <h3>ПИТАНИЕ</h3>
+
+            <label for="battery">
+              <input type="radio" checked name="power" value="battery" id="battery">АККУМУЛЯТОРНЫЕ
+            </label><br>
+
+            <label for="network">
+              <input type="radio" name="power" value="network" id="network">СЕТЕВЫЕ
+            </label>
+        </form>
     </section>
 
     <section class="catalog">
