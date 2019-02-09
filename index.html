@@ -15,10 +15,12 @@
         <input type="search" name="search" placeholder="Поиск:">
         <ul class="header-basket-list">
           <li class="header-basket-item">
-            <a class="header-basket-link" href="button-marker.html"><img src="img\icon-bookmark.svg" width="14" height="16" alt="Закладки с покупками">Закладки: <span>0</span></a>
+            <a class="header-basket-link" href="button-marker.html"><img src="img\icon-bookmark.svg" width="14" height="16" alt="Закладки с покупками">Закладки:</a>
+            <span>0</span>
           </li>
           <li class="header-basket-item">
-            <a class="header-basket-link" href="button-basket.html"><img src="img\icon-cart.svg" width="15" height="15" alt="Корзина с покупками">Корзина <span>0</span></a>
+            <a class="header-basket-link" href="button-basket.html"><img src="img\icon-cart.svg" width="15" height="15" alt="Корзина с покупками">Корзина</a>
+            <span>0</span>
           </li>
           <li class="header-basket-item">
             <a class="header-basket-link" href="button-chek-order.html">Оформить заказ</a>
@@ -28,6 +30,7 @@
       <div class="header-bottom">
         <div class="header-bottom-contacts">
           <p>Интернет - магазин строительных материалов и инструментов для дома</p>
+          <img src="img\icon-phone.svg" width="19" height="19" alt="Наш номер телефона">
           <span class="phone-button">+7 (812) 555-05-55</span>
           <address>г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</address>
         </div>
@@ -152,16 +155,10 @@
            </p>
       </div>
     </footer>
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
-    </section>
     <section class="modal modal-feedback">
       <h2 class="visually-hidden">Форма обратной связи</h2>
       <p class="visually-hidden">Задайте свой вопрос</p>
-      <form name="form-feedback" action="https://echo.htmlacademy.ru" method="get" id="form-feedback">
+      <form class="form-feedback" action="https://echo.htmlacademy.ru" method="post">
         <label for="user-name">Ваше имя:
           <p>
             <input type="text" name="feedback" id="user-name" placeholder="Имя Фамилия">
@@ -179,12 +176,20 @@
         </label>
         <button class="submit">ОТПРАВИТЬ</button>
       </form>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
+      <button class="modal-close" type="button">
+        Закрыть
+      </button>
     </section>
     <section class="modal modal-map">
-      <h2 class="visually-hidden">Как до нас добраться</h2>
-      <span class="modal-close">x</span>
+      <h2 class="visually-hidden">
+        Как до нас добраться
+      </h2>
+        <p>
+          <img src="img/map-big.jpg" width="970" height="476" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </p>
+        <button class="modal-close" type="button">
+          Закрыть
+        </button>
     </section>
 
   </body>
