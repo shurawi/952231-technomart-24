@@ -3,7 +3,7 @@ body {
 
   font-family: "PT Sans Narrow", Arial, sans-serif;
   color: #000000;
-  text-transform: uppercase;
+  text-transform: none;
 
   background-color: #ffffff;
   background-position: top center;
@@ -14,14 +14,46 @@ a {
   text-decoration: none;
 }
 
-.header-basket-list {
- font-size: 17px;
- line-height: 18px;
- color: #ffffff;
+.top-header {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  list-style: none;
 
- background-color: #293449;
+  background-color: #293449;
+}
+.header-basket-list {
+ list-style: none;
 }
 
 .header-basket-link {
   color: #ffffff;
+}
+
+.header-bottom-contacts p {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.phone-button{
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.header-bottom-contacts address {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  color: #32425c;
+}
+
+.user-login,
+.user-registration {
+  font-size: 21px;
+  line-height: 21px;
+  list-style: none;
+  color: #000000;
 }
