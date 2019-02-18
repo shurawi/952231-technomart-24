@@ -72,7 +72,8 @@ a {
   color: #ffffff;
 }
 
-.advantages h2 {
+.advantages h2,
+.contacts h2 {
   font-size: 30px;
   line-height: 30px;
   color: #000000;
@@ -83,4 +84,19 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #000000;
+}
+
+.transport-company-name-item {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  list-style: none;
+
+}
+
+.contacts p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;  
 }
