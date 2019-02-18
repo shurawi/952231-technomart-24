@@ -25,6 +25,7 @@ button {
 
   background-color: #ee3643;
   border: none;
+  padding-right: 15px;
 }
 button:hover,
 button:focus {
@@ -49,6 +50,19 @@ button:active {
 }
 .header-basket-list {
  list-style: none;
+}
+
+.header-basket-list li:nth-child(3) {
+  background-color: #63a63e;
+}
+
+.header-basket-list li:nth-child(3) a:focus,
+.header-basket-list li:nth-child(3):hover {
+  background-color: #5fbb2d;
+}
+
+.header-basket-list li:nth-child(3):active {
+  background-color: #518534;
 }
 
 .header-basket-link {
