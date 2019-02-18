@@ -1,13 +1,13 @@
 body {
   margin: 0;
 
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #000000;
   text-transform: none;
 
   background-color: #ffffff;
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: none;
 }
 
 a {
@@ -55,5 +55,32 @@ a {
   font-size: 21px;
   line-height: 21px;
   list-style: none;
+  color: #000000;
+  list-style: none;
+}
+
+.main-nav-list {
+  font-size: 17px;
+  line-height: 17px;
+  list-style: none;
+
+  background-color: #293449;
+
+}
+
+.main-nav-link {
+  color: #ffffff;
+}
+
+.advantages h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.advantages p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
   color: #000000;
 }
