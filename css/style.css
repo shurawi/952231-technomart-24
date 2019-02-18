@@ -14,6 +14,31 @@ a {
   text-decoration: none;
 }
 
+button {
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+  border: none;
+}
+button:hover,
+button:focus {
+  background-color: #ca2c37;
+}
+
+button:active {
+  background-color: #ba2732;
+}
+
+.main-logo {
+  background-color: #ee3643;
+}
+
 .top-header {
   font-size: 17px;
   line-height: 18px;
@@ -98,5 +123,51 @@ a {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 24px;
-  color: #000000;  
+  color: #000000;
+}
+
+.footer-top,
+.footer-menu {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background-color: #32425c;
+
+}
+
+.footer-menu-top-item,
+.footer-menu-bottom-item {
+  list-style: none;
+}
+
+.footer-menu-top-link {
+  color: #ffffff;
+}
+
+.footer-menu-bottom-link {
+  color: #f1c77e;
+}
+
+.footer-bottom {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.social-bottom-list {
+  list-style: none;
+}
+
+.social-bottom-link {
+  list-style: none;
+  color: #ffffff;
+}
+
+.footer-feedback-link,
+.footer-developer-link {
+  list-style: none;
+  color: #f1c77e;
 }
