@@ -52,16 +52,30 @@ button:active {
  list-style: none;
 }
 
-.header-basket-list li:nth-child(3) {
+.header-basket-list li:nth-child(1) a:hover,
+.header-basket-list li:nth-child(2) a:hover,
+.header-basket-list li:nth-child(1) a:focus,
+.header-basket-list li:nth-child(2) a:focus {
+  background-color: #212a3a;
+}
+
+.header-basket-list li:nth-child(1) a:active,
+.header-basket-list li:nth-child(2) a:active {
+  color: #8b8e94;
+  background-color: #161d29;
+}
+
+.header-basket-list li:nth-child(3) a {
   background-color: #63a63e;
 }
 
 .header-basket-list li:nth-child(3) a:focus,
-.header-basket-list li:nth-child(3):hover {
+.header-basket-list li:nth-child(3) a:hover {
   background-color: #5fbb2d;
+  color: #a8c29a;
 }
 
-.header-basket-list li:nth-child(3):active {
+.header-basket-list li:nth-child(3) a:active {
   background-color: #518534;
 }
 
@@ -96,6 +110,18 @@ button:active {
   list-style: none;
   color: #000000;
   list-style: none;
+}
+
+.user-login:hover,
+.user-registration:hover,
+.user-login:focus,
+.user-registration:focus {
+  color: #ee3643;
+}
+
+.user-login:active,
+.user-registration:active {
+  color: #b7b7b7;
 }
 
 .main-nav-list {
@@ -173,6 +199,7 @@ button:active {
 
 .social-bottom-list {
   list-style: none;
+  text-align: center;
 }
 
 .social-bottom-link {
