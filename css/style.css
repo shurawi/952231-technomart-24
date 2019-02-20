@@ -122,7 +122,8 @@ input[type="search"]:hover {
 }
 
 .user-login,
-.user-registration {
+.user-registration,
+.profile-user {
   font-size: 21px;
   line-height: 21px;
   list-style: none;
@@ -133,13 +134,32 @@ input[type="search"]:hover {
 .user-login:hover,
 .user-registration:hover,
 .user-login:focus,
-.user-registration:focus {
+.user-registration:focus,
+.profile-user:focus {
   color: #ee3643;
 }
 
 .user-login:active,
-.user-registration:active {
+.user-registration:active,
+.profile-user:active {
   color: #b7b7b7;
+}
+
+.nav-user-link {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration:underline;
+  color: #3f4e66;
+}
+
+.nav-user-link:hover {
+  text-decoration:underline;
+  color: #ee3643;
+}
+
+.nav-user-link:active {
+  text-decoration:underline;
+  color: #b7bfc8;
 }
 
 .main-nav-list {
@@ -163,6 +183,41 @@ input[type="search"]:hover {
   color: #59616e;
   background-color: #1d2739;
 }
+
+.breadcrumbs li {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.sorting-item {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f7f3ec;
+  list-style: none;
+}
+
+.sorting-link {
+  color: #c5c5c5;
+  text-decoration: underline #ee3643;
+}
+
+.sorting-link:hover {
+  color: #000000;
+  text-decoration: underline #ee3643;
+}
+
+.sorting-link:active {
+  color: #ee3643;
+  text-decoration: none; 
+}
+
 
 .advantages h2,
 .contacts h2 {
