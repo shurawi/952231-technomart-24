@@ -14,7 +14,8 @@ a {
   text-decoration: none;
 }
 
-button {
+.contacts button,
+.submit {
   font-size: 14px;
   line-height: 18px;
 
@@ -26,13 +27,17 @@ button {
   background-color: #ee3643;
   border: none;
   padding-right: 15px;
+
 }
-button:hover,
-button:focus {
+.contacts button:hover,
+.contacts button:focus,
+.submit:hover,
+.submit:focus {
   background-color: #ca2c37;
 }
 
-button:active {
+.contacts button:active,
+.submit:active {
   background-color: #ba2732;
 }
 
@@ -48,8 +53,21 @@ button:active {
 
   background-color: #293449;
 }
+
 .header-basket-list {
  list-style: none;
+}
+
+input[type="search"] {
+  background-color: #293449;
+  color: #ffffff;
+  border: none;
+}
+
+input[type="search"]:hover {
+  background-color: #212a3a;
+  color: #ffffff;
+  border: none;
 }
 
 .header-basket-list li:nth-child(1) a:hover,
@@ -129,12 +147,21 @@ button:active {
   line-height: 17px;
   list-style: none;
 
-  background-color: #293449;
+  background-color: #32425c;
 
 }
 
 .main-nav-link {
   color: #ffffff;
+}
+
+.main-nav-link:hover {
+  background-color: #293449;
+}
+
+.main-nav-link:active {
+  color: #59616e;
+  background-color: #1d2739;
 }
 
 .advantages h2,
@@ -185,6 +212,21 @@ button:active {
   color: #ffffff;
 }
 
+.footer-menu-top-link:hover,
+.footer-menu-bottom-link:hover {
+  text-decoration: underline;
+}
+
+.footer-menu-top-link:active {
+  color: #929caa;
+  text-decoration: inherit;
+}
+
+.footer-menu-bottom-link:active {
+  color: #92856d;
+  text-decoration: inherit;
+}
+
 .footer-menu-bottom-link {
   color: #f1c77e;
 }
@@ -211,4 +253,40 @@ button:active {
 .footer-developer-link {
   list-style: none;
   color: #f1c77e;
+}
+
+.modal {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.form-feedback input[type="text"],
+.form-feedback input[type="email"],
+.form-feedback textarea {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  border: 1px solid #d7dcde;
+}
+
+.form-feedback input[type="text"]:hover,
+.form-feedback input[type="email"]:hover,
+.form-feedback textarea:hover {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  border: 1px solid #b5b5b5;
+}
+
+.form-feedback input[type="text"]:focus,
+.form-feedback input[type="email"]:focus,
+.form-feedback textarea:focus {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  border: 1px solid #ee3643;
 }
