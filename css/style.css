@@ -41,6 +41,55 @@ a {
   background-color: #ba2732;
 }
 
+.button-catalog-buy {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #63a63e;
+  border: none;
+}
+
+.button-catalog-bookmarks {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  border-color: #63a63e;
+}
+
+.button-catalog-buy:hover {
+  background-color: #5fbb2d;
+}
+
+.button-catalog-bookmarks:hover {
+  color: #000000;
+  border-color: #32425c;
+}
+
+.button-catalog-buy:active {
+  background-color: #518534;
+}
+
+.button-catalog-bookmarks:active {
+  color: #c1c6ce;
+  border-color: #c1c6ce;
+}
+
+.basket-bottom {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  background-color: #ffffff;
+}
+
+.basket-bottom:hover,
+.basket-bottom:active {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
 .main-logo {
   background-color: #ee3643;
 }
@@ -215,9 +264,63 @@ input[type="search"]:hover {
 
 .sorting-link:active {
   color: #ee3643;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+input[type="checkbox"] + label {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+input[type="radio"] + label {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+input[type="checkbox"]:disabled + label,
+input[type="radio"]:disabled + label {
+  color: #cccccc;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.catalog-link {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.old-price {
+  color: #999999;
+  text-decoration: line-through;
+}
 
 .advantages h2,
 .contacts h2 {
@@ -300,20 +403,34 @@ input[type="search"]:hover {
 }
 
 .social-bottom-link {
-  list-style: none;
   color: #ffffff;
 }
 
 .footer-feedback-link,
 .footer-developer-link {
-  list-style: none;
   color: #f1c77e;
+}
+
+.footer-feedback-link:hover,
+.footer-developer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-feedback-link:active,
+.footer-developer-link:active {
+  color: #ee3643;
+  text-decoration: none;
 }
 
 .modal {
   font-size: 18px;
   line-height: 18px;
   color: #000000;
+}
+
+.modal-basket-top h3 {
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .form-feedback input[type="text"],
