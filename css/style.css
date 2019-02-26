@@ -340,8 +340,7 @@ input[type="radio"]:disabled + label {
   color: #cccccc;
 }
 
-.popular-items h2,
-.popular-brands h2 {
+.headline-items {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
@@ -390,26 +389,24 @@ input[type="radio"]:disabled + label {
   text-decoration: line-through;
 }
 
-.advantages h2,
-.contacts h2,
-.services h2 {
+.headline-company {
   font-size: 30px;
   line-height: 30px;
+  text-transform:uppercase;
   font-weight: normal;
   color: #000000;
 }
 
-.service-delivery h2 ,
-.service-guaranty h2,
-.service-credit h2{
+ .headline-service {
   font-size: 36px;
   line-height: 36px;
+  text-transform:uppercase;
+  font-weight: normal;
   color: #32425c;
 }
 
-.services p,
-.advantages p,
-.contacts p {
+.paragraph-company,
+.paragraph-service {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
