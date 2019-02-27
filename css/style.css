@@ -279,14 +279,21 @@ input[type="search"]:hover {
   text-decoration: none;
 }
 
-.breadcrumbs li {
+.breadcrumbs-list {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs-item {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   list-style: none;
 }
 
-.breadcrumbs a {
+.breadcrumbs-link {
   color: #000000;
 }
 
@@ -418,6 +425,40 @@ input[type="radio"]:disabled + label {
   color: #000000;
   list-style: none;
 
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+
+.pagination-link {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  border: 1px solid #e5e5e5;
+}
+
+.pagination-link:hover {
+  border: 1px solid #bdc6ca;
+}
+
+.pagination-link:active {
+  border: 1px solid #ee3643;
+}
+
+.pagination-link-current {
+  color: #ffffff;
+  background-color: #ee3643;
+  border: none;
+}
+
+.pagination-link-current:hover,
+.pagination-link-current:focus {
+  color: #ffffff;
+  background-color: #ee3643;
+  border: none;
 }
 
 .footer-top,
