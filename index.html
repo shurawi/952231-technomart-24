@@ -10,38 +10,28 @@
   </head>
   <body>
     <header class="main-header">
-      <section class="top-header">
+      <div class="top-header">
+        <div class="top-header-wrapper container">
         <a class="main-logo" href="index.html">
           <img src="img/logo-technomart.svg" alt="Логотип - магазин Техномарт">
         </a>
-        <div class="top-header-container">
-          <div class="container">
-            <ul class="header-basket-search">
-              <li class="header-basket-item">
-                <img src="img/icon-search.svg" width="17" height="17" alt="Поиск по сайту">
-                <input type="search" name="search" placeholder="Поиск:">
-              </li>
-            </ul>
-            <ul class="header-basket-list">
-              <li class="header-basket-item">
-                <a class="header-basket-link header-basket-market-link" href="marker.html">
-                  <img src="img/icon-bookmark.svg" width="14" height="16" alt="Закладки с покупками">Закладки:
-                  <span>0</span>
-                </a>
-              </li>
-              <li class="header-basket-item">
-                <a class="header-basket-link header-basket-basket-link" href="basket.html">
-                  <img src="img/icon-cart.svg" width="15" height="15" alt="Корзина с покупками">Корзина:
-                  <span>0</span>
-                </a>
-              </li>
-              <li class="header-basket-item">
-                <a class="header-basket-link header-basket-chek-order-link" href="chek-order.html">Оформить заказ</a>
-              </li>
-            </ul>
-          </div>
+        <form class="search-form" name="search-form" method="post" action="https://echo.htmlacademy.ru">
+            <input class="search" type="search" aria-label="Поиск по сайту" placeholder="Поиск">
+            <button class="button-search" type="submit">Искать
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+                <path fill="#ffffff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+              </svg>
+            </button>
+          </form>
+            <a class="header-market-link" href="marker.html">Закладки:
+              <span class="bookmarks-count">0</span>
+            </a>
+            <a class="header-basket-link" href="basket.html">Корзина:
+              <span class="bookmarks-count">0</span>
+            </a>
+            <a class="header-chekorder-link" href="chek-order.html">Оформить заказ</a>
         </div>
-      </section>
+      </div>
       <section class="header-bottom">
         <div class="header-bottom-contacts">
           <p>Интернет - магазин строительных материалов и инструментов для ремонта</p>
