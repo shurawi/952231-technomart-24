@@ -608,6 +608,8 @@ address {
   height: 123px;
   margin-bottom: 20px;
   margin-right: 0;
+  position: relative;
+  overflow: hidden;
   background-color: #8ed78f;
   background-image: url('../img/icon-4.svg');
   background-position: 85% center;
@@ -617,6 +619,8 @@ address {
   width: 300px;
   height: 123px;
   margin: 0;
+  position: relative;
+  overflow: hidden;
   background-color: #ffc047;
   background-image: url('../img/icon-5.svg');
   background-position: 85% center;
