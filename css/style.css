@@ -975,3 +975,131 @@ address {
   background-color: #ffffff;
   box-shadow: 0 10px 4px 0 rgba(41, 52, 73, 0.5);
 }
+
+/*advantages*/
+
+.contacts-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 86px;
+}
+
+.advantages {
+  width: 520px;
+}
+
+.contacts {
+  width: 300px;
+}
+
+.headline-company {
+  margin-bottom: 26px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.paragraph-advantages,
+.paragraph-contacts {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+}
+
+.paragraph-advantages {
+  margin-bottom: 24px
+}
+
+.paragraph-contacts {
+  margin-bottom: 30px;
+}
+
+.transport-company-name-list {
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
+  list-style: none;
+}
+
+.transport-company-name-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-left: 35px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+}
+
+.transport-company-name-item::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+}
+
+.contacts-map {
+  width: 300px;
+  height: 158px;
+  margin-bottom: 42px;
+}
+
+.contacts-map-link {
+  font-size: 0;
+}
+
+.advantages-button,
+.contacts-button {
+  display: block;
+  padding: 9px 40px;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #ee3643;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.advantages-button:hover,
+.contacts-button:hover,
+.advantages-button:focus,
+.contacts-button:focus {
+  background-color: #ca2c37;
+}
+
+.advantages-button:active,
+.contacts-button:active {
+  background-color: #ba2732;
+}
+
+.advantages-button {
+  max-width: 220px;
+}
+
+.contacts-button {
+  width: 100%;
+  margin: 0;
+  border: none;
+}
