@@ -8,8 +8,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <!-- Временная разметка header-->
+  <body class="inner-page">
     <header class="main-header">
       <div class="top-header">
         <div class="top-header-wrapper container">
@@ -28,34 +27,39 @@
               <span class="basket-count">0</span>
             </a>
             <a class="header-basket-link" href="basket.html">Корзина:
-              <span class="basket-count">0</span>
+              <span class="basket-count">10</span>
             </a>
             <a class="header-chekorder-link" href="chek-order.html">Оформить заказ</a>
         </div>
       </div>
       <div class="header-bottom container">
-        <p>Интернет - магазин строительных материалов и инструментов для ремонта</p>
+        <p class="paragraph-header">Интернет-магазин строительных материалов и инструментов для ремонта</p>
         <div class="header-bottom-contacts">
-          <span class="phone">+7 (812) 555-05-55</span>
-          <address>г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</address>
+            <span class="phone">+7(812) 555-05-55</span>
+            <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         </div>
         <div class="user-nav">
+          <p class="user-account">
+            <a class="user-name-link" href="profile.html">Равшан Джамшутович</a>
+            <button class="button-logout" type="button" aria-label="Выйти">
+            </button>
+          </p>
           <ul class="user-nav-list">
-            <li class="user-nav-item user-login">
-              <a class="user-nav-link user-login-link" href="login.html">Вход</a>
+            <li class="user-nav-item">
+              <a class="my-purchases-link" href="shopping-cart.html">Мои заказы</a>
             </li>
-            <li class="user-nav-item user-registration">
-              <a class="user-nav-link user-registration-link" href="#">Регистрация</a>
+            <li class="user-nav-item">
+              <a class="user-profile-link" href="profile.html">Личный кабинет</a>
             </li>
           </ul>
+          </div>
         </div>
-      </div>
         <nav class="main-nav container">
           <ul class="main-nav-list">
             <li class="main-nav-item"><a class="main-nav-link" href="index.html">Главная</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="company.html">Компания</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="catalog.html">Каталог</a></li>
-            <li class="main-nav-item"><a class="main-nav-link" href="news.html">Новосити</a></li>
+            <li class="main-nav-item"><a class="main-nav-link" href="news.html">Новости</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="special-offers">Спецпредложения</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="delivery.html">Доставка</a></li>
             <li class="main-nav-item"><a class="main-nav-link" href="contacts.html">Контакты</a></li>
@@ -63,7 +67,7 @@
         </nav>
       </section>
     </header>
-    <!--Временная разметка_header-->
+
     <main class="container">
       <h1 class="visually-hidden">Каталог строительных материалов. Раздел - перфораторы</h1>
       <ul class="breadcrumbs-list">

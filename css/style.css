@@ -343,7 +343,7 @@ img {
   margin-bottom: 35px;
 }
 
-.header-bottom p {
+.header-bottom .paragraph-header {
   width: 196px;
   margin: 0;
   padding: 0;
@@ -1181,11 +1181,12 @@ address {
 
 .footer-menu-link:hover,
 .footer-menu-link:focus {
-  border-bottom: 2px solid #f1f5f7;
+  border-bottom: 1px solid #f1f5f7;
 }
 
 .footer-menu-link:active {
   color: #929caa;
+  border: none;
 }
 
 .page-footer .footer-address {
@@ -1230,11 +1231,12 @@ address {
 
 .product-menu-link:hover,
 .product-menu-link:focus {
-  border-bottom: 2px solid #ffd180;
+  border-bottom: 1px solid #ffd180;
 }
 
 .product-menu-link:active {
   color: #998a6e;
+  border: none;
 }
 
 .footer-bottom {
@@ -1348,10 +1350,153 @@ address {
 
 .footer-feedback-link:hover,
 .footer-feedback-link:focus {
-  border-bottom: 2px solid #ffd180;
+  border-bottom: 1px solid #ffd180;
 }
 
 .footer-feedback-link:active {
   color: #ee3643;
+  border: none;
+}
+
+/*catalog-page*/
+
+.inner-page .header-basket-link {
+  background-color: #ee3643;
+}
+
+.user-nav {
+  flex-direction: column;
+}
+
+.header-bottom p {
+  padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+}
+
+.user-account {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 299px;
+  height: 45px;
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+  border-radius: 3px;
+  background-color: #ffffff;
+
+}
+.user-name-link {
+  display: block;
+  position: relative;
+  padding: 0;
+  padding-left: 46px;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+}
+
+.user-name-link::before {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  content: "";
+  width: 20px;
+  height: 18px;
+  background-image: url('../img/icon-user.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.2;
+}
+
+.button-logout {
+  position: relative;
+  width: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-left: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-logout::before {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  content: "";
+  width: 20px;
+  height: 17px;
+  background: url('../img/icon-logout.svg') no-repeat 0 0;
+  opacity: 0.3;
+}
+
+.user-name-link:hover::before,
+.button-logout:hover::before,
+.user-name-link:focus::before,
+.button-logout:focus::before {
+  opacity: 1;
+}
+
+.user-name-link:active,
+.button-logout:active::before {
+  opacity: 0.2;
+}
+
+.inner-page .user-nav-list {
+  width: 229px;
+  display: flex;
+  font-size: 16px;
+  line-height: 18px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.user-profile-link,
+.my-purchases-link {
+  position: relative;
+  padding-top: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+  color: #32425c;
+  border-bottom: 1px solid #32425c;
+}
+
+.my-purchases-link::after {
+  position: absolute;
+  top: 12px;
+  right: -25px;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #32425c;
+}
+
+.user-nav-list a:hover,
+.user-nav-list a:focus {
+  color: #ee3643;
+  border-color: #ee3643;
+}
+
+.user-nav-list a:active {
+  color: #bbc2cb;
   border: none;
 }
