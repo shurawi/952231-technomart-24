@@ -1103,3 +1103,255 @@ address {
   margin: 0;
   border: none;
 }
+
+/*footer*/
+
+.page-footer {
+  margin-top: 86px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.inner-page .page-footer {
+  margin-top: 0;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-footer .footer-logo {
+  display: block;
+  align-self: flex-start;
+  width: 220px;
+  line-height: 63px;
+  text-align: center;
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #ba2732;
+  box-sizing: border-box;
+}
+
+.page-footer .footer-logo:hover,
+.page-footer .footer-logo:focus {
+  background-color: #ca2c37;
+}
+
+.page-footer .footer-logo:active {
+  background-color: #ba2732;
+}
+
+.footer-logo img {
+  width: 138px;
+  height: 21px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.footer-navigation {
+  width: 600px;
+  margin-top: 40px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu-item {
+  margin-left: 57px;
+}
+
+.footer-menu-link {
+  text-decoration: none;
+  color: #f1f5f7;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  border-bottom: 2px solid #f1f5f7;
+}
+
+.footer-menu-link:active {
+  color: #929caa;
+}
+
+.page-footer .footer-address {
+  width: 329px;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 52px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.product-menu-navigation {
+  width: 580px;
+  align-self: flex-start;
+  margin-top: 32px;
+}
+
+.product-menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product-menu-item {
+  margin-left: 57px;
+}
+
+.product-menu-link {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #ffd180;
+}
+
+.product-menu-link:hover,
+.product-menu-link:focus {
+  border-bottom: 2px solid #ffd180;
+}
+
+.product-menu-link:active {
+  color: #998a6e;
+}
+
+.footer-bottom {
+  padding-bottom: 22px;
+  background-color: #293449;
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.copyright {
+  width: 300px;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.social-list {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.social-item {
+  margin: 0;
+  padding: 0;
+  margin-right: 4px;
+}
+
+.social-item:last-child {
+  margin-right: 0;
+}
+
+.social-link {
+  padding: 10px 21px;
+  color: transparent;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.vk {
+  background-color: #212a3a;
+  background-image: url('../img/icon-vk.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook {
+  background-color: #212a3a;
+  background-image: url('../img/icon-fb.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.instagram {
+  background-color: #212a3a;
+  background-image: url('../img/icon-insta.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #ee3643;
+}
+
+.social-link:active {
+  background-color: #ee3643;
+}
+
+.footer-feedback {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feedback-mail {
+  margin-right: 30px;
+}
+
+.feedback-mail span,
+.produced-by span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-feedback-link {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #ffd180;
+}
+
+.footer-feedback-link:hover,
+.footer-feedback-link:focus {
+  border-bottom: 2px solid #ffd180;
+}
+
+.footer-feedback-link:active {
+  color: #ee3643;
+  border: none;
+}
