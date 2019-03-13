@@ -75,12 +75,12 @@
           <li class="promo-item promo-tools-item">
           <h3>Инструмент</h3>
             <a class="promo-link promo-tools-link" href="catalog-tools.html">НА ВСЕ СЛУЧАИ</a>
-            <span class="flag flag-new">новинка</span>
+            <span class="flag flag-new visually-hidden">новинка</span>
           </li>
           <li class="promo-item promo-technics-item">
           <h3>Техника</h3>
             <a class="promo-link promo-technics-link" href="catalog-technics.html">ДЛЯ СТРОЙКИ</a>
-            <span class="flag flag-new">новинка</span>
+            <span class="flag flag-new visually-hidden">новинка</span>
           </li>
           <li class="vertical-promo-item promo-item">
             <ul class="vertical-promo-list">
@@ -280,5 +280,35 @@
         </div>
       </div>
     </footer>
+    <section class="modal-map-big visually-hidden">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <div class="map-wrapper">
+        <a class="modal-map" href="#" aria-label="Большая Конюшенная 19/8">
+          <img src="img/map-big.jpg" alt="Карта проезда">
+        </a>
+        <button class="modal-close" type="button">Закрыть</button>
+      </div>
+    </section>
+    <section class="modal-feedback">
+        <h2 class="visually-hidden">Напишите нам</h2>
+        <form class="feedback-form" name="feedback" action="mailto:mail@htmlacademy.ru" method="post">
+          <div class="user-name-column">
+            <label for="user-name">Ваше имя:</label>
+            <input type="text" name="name" id="user-name" value="" placeholder="Имя Фамилия">
+          </div>
+          <div class="user-email-column">
+            <label for="user-email">Ваш e-mail:</label>
+            <input type="email" name="email" id="user-email" value="" placeholder="example@example.com">
+          </div>
+          <div class="textarea-column">
+            <label for="feedback-content">Текст письма:</label>
+            <textarea id="feedback-content" name="feedback-content"  placeholder="В свободной форме"></textarea>
+          </div>
+          <div class="feedback-form-bottom">
+            <button class="feedback-button" type="submit" name="submit">Отправить</button>
+          </div>
+        </form>
+          <button class="modal-close" type="button">Закрыть</button>
+      </section>
   </body>
 </html>
