@@ -1254,6 +1254,224 @@ address {
   border: none;
 }
 
+.services {
+  width: 100%;
+  display: flex;
+  background-color: #f3f8f9;
+  margin-bottom: 50px;
+}
+
+.services h2 {
+  margin-top: 65px;
+  margin-bottom: 27px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services p {
+  width: 400px;
+  margin-bottom: 68px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+}
+
+.services-slider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.services-slider-controls {
+  position: relative;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.services-slider-controls::after {
+  position: absolute;
+  top: -50px;
+  right: -20px;
+  content: "";
+  width: 10px;
+  height: 279px;
+  background: url('../img/layer-118.png') no-repeat 0 0;
+  padding: 0 10px;
+}
+
+.service-button {
+  display: block;
+  width: 240px;
+  padding: 15px 22px 16px 21px;  
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #32425c;
+  box-shadow: 0 1px 0 0 #293449,
+        inset 0 1px 0 0 #405069;
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+
+.service-button:hover,
+.service-button:focus {
+  color: #ffffff;
+  background-color: #293449;
+  box-shadow: 0 1px 0 0 #293449,
+        inset 0 1px 0 0 #405069;
+}
+
+.services-slider-content {
+  width: 690px;
+  height: 261px;
+  overflow: hidden;
+}
+
+.slider-content-list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flx-wrap: nowrap;
+  width: 690px;
+  height: 270px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider-content-list::after {
+  content: "";
+  display: block;
+}
+
+.content-list-item {
+  width: 690px;
+  height: 270px;
+  padding-left: 70px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.delivery-content {
+  background: url('../img/delivery.png') no-repeat 220px 24px;
+}
+
+.assurance-content {
+  background: url('../img/guaranty.png') no-repeat 270px 0px;
+}
+
+.credit-content {
+  background: url('../img/credit.png') no-repeat 190px 0px;
+}
+
+#delivery:checked ~ .services-slider-content .delivery-content {
+  display: block;
+}
+
+#assurance:checked ~ .services-slider-content .assurance-content {
+  display: block;
+}
+
+#credit:checked ~ .services-slider-content .credit-content {
+  display: block;
+}
+
+#delivery:checked ~ .services-slider-controls .delivery-button {
+  color: #32425c;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 #ffffff,
+        inset 0 1px 0 0 #ffffff;
+}
+
+#assurance:checked ~ .services-slider-controls .assurance-button {
+  color: #32425c;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 #ffffff,
+        inset 0 1px 0 0 #ffffff;
+}
+
+#credit:checked ~ .services-slider-controls .credit-button {
+  color: #32425c;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 #ffffff,
+        inset 0 1px 0 0 #ffffff;
+}
+
+.content-list-item h3 {
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.content-list-item p {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+}
+
+.content-list-item:nth-child(1) p {
+  width: 275px;
+}
+.content-list-item:nth-child(2) p {
+  width: 380px;
+}
+
+.content-list-item:nth-child(3) p {
+  width: 279px;
+}
+
+.content-list-item .take-credit {
+  display: block;
+  width: 195px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #ff5357;
+  box-sizing: border-box;
+}
+
+.credit-content .take-credit:hover,
+.credit-content .take-credit:focus {
+  background-color: #ca3c37;
+}
+
+.credit-content .take-credit:active {
+  background-color: #ba2732;
+}
+
 .footer-bottom {
   padding-bottom: 22px;
   background-color: #293449;
