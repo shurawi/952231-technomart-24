@@ -710,6 +710,19 @@ input[type="radio"].visually-hidden {
   border: 1px solid transparent;
   border-radius: 2px;
 }
+
+.promo-technics-link {
+  padding: 10px 30px;
+}
+
+.promo-special-offers-link {
+  padding: 10px 22px;
+}
+
+.promo-delivery-link {
+  padding: 10px 35px;
+}
+
 .promo-link:hover,
 .promo-link:focus {
   background-color: rgba(0, 0, 0, 0.2);
@@ -899,7 +912,7 @@ input[type="radio"].visually-hidden {
 }
 
 .popular-products {
-  margin-bottom: 21px;
+  margin-bottom: -24px;
 }
 
 .heading-container {
@@ -1572,7 +1585,7 @@ input[type="radio"].visually-hidden {
 .paragraph-advantages,
 .paragraph-contacts {
   margin: 0;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   padding: 0;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -1588,6 +1601,10 @@ input[type="radio"].visually-hidden {
 
 .paragraph-advantages:nth-child(2) {
   margin-bottom: 24px;
+}
+
+.paragraph-advantages:nth-child(4) {
+  margin-bottom: 20px;
 }
 
 .transport-company-name-list {
@@ -2238,7 +2255,7 @@ input[type="radio"].visually-hidden {
 .breadcrumbs-link::after {
   position: absolute;
   top: 5px;
-  right: 12px;
+  right: 19px;
   content: "";
   width: 8px;
   height: 12px;
@@ -2370,7 +2387,7 @@ input[type="radio"].visually-hidden {
 }
 
 .price-range {
-  margin-bottom: 50px;
+  margin-bottom: 61px;
 }
 
 .range-container {
@@ -2561,7 +2578,7 @@ button.filter_show {
   border: 1px solid #e5e5e5;
 }
 
-.catalog-items {
+.catalog-item {
   width: 700px;
 }
 
@@ -2634,7 +2651,7 @@ button.filter_show {
 
 .btn-sort {
   display: inline-block;
-  margin: 0;
+  margin-top: 5px;
   margin-right: 13px;
   padding: 0;
   vertical-align: top;
@@ -2646,7 +2663,7 @@ button.filter_show {
   text-align: left;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1.5px dotted #ee3643;
+  border-bottom: 1px dotted #ee3643;
 }
 
 .sort-by-type {
@@ -2654,7 +2671,7 @@ button.filter_show {
 }
 
 .sort-by-functionality {
-  margin-left: 30;
+  margin-left: 32;
 }
 
 .sort-by-price {
@@ -2742,7 +2759,7 @@ button.filter_show {
 .products-list-positioning {
   margin: 0;
   margin-left: -20px;
-  margin-bottom: -20px;
+  margin-bottom: 26px;
   padding: 0;
 }
 
@@ -2812,13 +2829,13 @@ border-radius: 2px;
 /*about-drills*/
 .about-drills {
   width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 68px;
   background-color: #f1f6f8;
 }
 
 .about-drills h2 {
-  padding-top: 65px;
-  margin-bottom: 40px;
+  padding-top: 69px;
+  margin-bottom: 26px;
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -2830,7 +2847,7 @@ border-radius: 2px;
 
 .about-drills p {
   margin: 0;
-  padding-bottom: 70px;
+  /*padding-bottom: 70px;*/
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
